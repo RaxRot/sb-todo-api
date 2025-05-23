@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @Slf4j
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/todos")
 @Tag(name = "TODO Controller", description = "Handles creation, retrieval, updating, deletion, and completion of TODO tasks")
